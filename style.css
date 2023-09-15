@@ -112,7 +112,8 @@ a {
     background-color: var(--light-blue);
     border-radius: 20px; 
     text-align: center;
-    padding: 16px 0;
+    padding: 25px;
+    height: 100%;
 }
 
 .hero .col-4,.hero .col-8 {
@@ -136,7 +137,30 @@ a {
 }
 
 .hero div[class^="card-"] {
-    margin: 16px 0;
+    padding: 10px 0;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.hero img {
+    max-width: 200px;
+    align-self: flex-end;
+    margin-bottom: -25px;
+}
+
+.row-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero .button {
+    background-color: var(--blue);
+    color: var(--light);
+    padding: 10px 60px;
+    margin-top: 20px;
 }
 
 
