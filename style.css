@@ -20,7 +20,7 @@ a {
     min-height: 100px;
 }
 
-.img {
+img {
     max-width: 100%;
 }
 
@@ -32,6 +32,7 @@ a {
     --yellow:#FDC15F;
     --dark-grey:#333333;
     --light:#FFFFFF;
+    --black:#000000;
 }
 
 /* LAYOUT */
@@ -81,6 +82,23 @@ a {
     flex-basis: calc((100% / 12) * 12);
 }
 
+/* UTILITY CLASS */
+.margin-vertical {
+    margin: 120px 0;
+}
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+.white-text {
+    color: var(--light);
+}
+
+.italic-text {
+    font-style: italic;
+}
+
 /* HEADER */
 .page-header {
     background-color: var(--blue);
@@ -100,7 +118,7 @@ a {
 }
 
 .button {
-    color: black;
+    color: var(--black);
     text-align: center;
     background-color: white;
     border-radius: 20px;
@@ -113,7 +131,7 @@ a {
 }
 
 /* HERO */
-.hero .card {
+.card {
     background-color: var(--light-blue);
     border-radius: 20px; 
     text-align: center;
@@ -130,13 +148,13 @@ a {
     color: var(--blue);
 }
 
-.hero .card-title {
+.card-title {
     font-size: 20px;
     font-weight: 700;
     color: var(--blue);
 }
 
-.hero .card-par {
+.card-par {
     font-size: 16px;  
     line-height: 30px; 
 }
@@ -150,7 +168,7 @@ a {
 }
 
 .hero img {
-    max-width: 200px;
+    max-width: 80%;
     align-self: flex-end;
     margin-bottom: -25px;
 }
@@ -171,6 +189,21 @@ a {
 .hero {
     margin: 50px auto;
 }
+
+/* PLANNING */
+.container-large.planning {
+    background-color: var(--purple);
+}
+
+.planning .card {
+    background-color: var(--light);
+}
+
+.planning .card-title {
+    color: var(--black);
+}
+
+
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
