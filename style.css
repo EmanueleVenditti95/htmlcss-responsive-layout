@@ -194,5 +194,12 @@ a {
 }
 
 @media screen and (max-width:576px) {
+    .hero .col-4, .hero .col-8 {
+        flex-basis: 100%;
+    }
 
+    .hero .col-6 {
+        flex-basis: 100%;
+        justify-content: center;
+    }
 }
