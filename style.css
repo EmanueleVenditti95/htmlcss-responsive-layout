@@ -60,6 +60,11 @@ a {
     flex-wrap: wrap;
 }
 
+.row-colum {
+    display: flex;
+    flex-direction: column;
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -163,6 +168,9 @@ a {
     margin-top: 20px;
 }
 
+.hero {
+    margin: 50px auto;
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
@@ -172,6 +180,16 @@ a {
 
     .hamburger {
         display: inline-block;
+    }
+
+    .hero .col-8 .row {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+
+    .row-img {
+        justify-content: flex-start;
     }
 }
 
