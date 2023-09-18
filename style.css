@@ -228,7 +228,7 @@ h1 {
 .planning .card {
     background-color: var(--light);
     margin-bottom: 65px;
-    border-radius: 60px;
+    border-radius: 70px;
 }
 
 .planning .card-title {
@@ -253,22 +253,28 @@ h1 {
 }
 
 /* PARTNERS */
+.container.partners {
+    padding: 0 24px;
+}
+
 .partners h1 {
     color: var(--purple);
 }
 
 .partners img {
     width: 200px;
-}
-
-.partners .card {
-    margin: 15px 0;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .partners .card {
     background-color: var(--purple);
     color: var(--light);
     padding-bottom: 40px;
+    margin: 15px 0;
+    line-height: 30px;
+    border-radius: 60px;
 }
 
 .partners .row-nowrap {
