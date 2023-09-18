@@ -349,7 +349,7 @@ h1 {
 }
 
 .about-us .text-spacing {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .about-us h2 {
@@ -373,6 +373,35 @@ h1 {
     padding: 5px 10px;
     font-size: 14px;
 }
+
+/* GET STARTED SECTION */
+.get-started.container-large {
+    background-color: var(--purple);
+}
+
+.get-started .container-small {
+    text-align: center;
+    color: var(--light);
+    padding: 60px 0;
+    max-width: 640px;
+}
+
+.get-started .text-spacing {
+    margin: 20px;
+}
+.get-started .button {
+    color: var(--purple);
+    font-weight: 700;
+    padding: 20px 70px;
+    border-radius: 50px;
+}
+
+.free {
+    color: var(--yellow);
+    font-size: 64px;
+    font-weight: 700;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
