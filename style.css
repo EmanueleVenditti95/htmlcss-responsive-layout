@@ -229,6 +229,7 @@ h1 {
     background-color: var(--light);
     margin-bottom: 65px;
     border-radius: 70px;
+    text-align: center;
 }
 
 .planning .card-title {
@@ -255,6 +256,7 @@ h1 {
 /* PARTNERS */
 .container.partners {
     padding: 0 24px;
+    margin-bottom: 100px;
 }
 
 .partners h1 {
@@ -284,6 +286,48 @@ h1 {
 
 .partners .card p {
     margin-bottom: 20px;
+}
+
+/* BENEFITS */
+.benefits.container-large {
+    background-color: var(--purple);
+    padding-bottom: 60px;
+}
+
+.benefits h1 {
+    color: var(--light);
+    text-align: center;
+    padding: 75px 0;
+}
+
+.benefits .card {
+    background-color: var(--light);
+}
+
+.benefits .col-4 {
+    padding: 12px;
+}
+
+.benefits h2,.benefits h3 {
+    color: var(--purple);
+}
+
+.benefits h2 {
+    font-size: 64px;
+}
+
+.benefits h3 {
+    font-size: 24px;
+}
+
+.benefits .button {
+    background-color: var(--purple);
+    color: var(--light);
+    padding: 10px 50px;
+}
+
+.benefits .text-spacing {
+    margin: 15px 0;
 }
 
 /* MEDIA QUERY */
