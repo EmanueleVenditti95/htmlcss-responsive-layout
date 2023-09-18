@@ -60,6 +60,11 @@ h1 {
     margin: 0 auto;
 }
 
+.container-xsmall {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -379,11 +384,10 @@ h1 {
     background-color: var(--purple);
 }
 
-.get-started .container-small {
+.get-started .container-xsmall {
     text-align: center;
     color: var(--light);
     padding: 60px 0;
-    max-width: 640px;
 }
 
 .get-started .text-spacing {
@@ -402,6 +406,21 @@ h1 {
     font-weight: 700;
 }
 
+/* FOOTER */
+footer.container-large {
+    background-color: var(--dark-grey);
+    color: var(--light);
+    text-align: center;
+}
+
+.padding-footer{
+    padding: 40px 24px; 
+}
+
+footer a {
+    text-decoration: underline;
+    color: var(--blue);
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
