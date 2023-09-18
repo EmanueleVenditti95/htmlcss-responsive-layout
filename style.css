@@ -357,6 +357,10 @@ h1 {
     .planning .resizing-img{
         max-width: 100%;
     }
+
+    .benefits .col-4 {
+        flex-basis: 50%;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -372,5 +376,9 @@ h1 {
     .partners .col-12 {
         flex-direction: column;
         text-align: center;
+    }
+
+    .benefits .col-4 {
+        flex-basis: 100%;
     }
 }
