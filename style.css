@@ -109,7 +109,7 @@ img {
 }
 
 .resizing-img {
-    max-width: 80%;
+    max-width: 70%;
 }
 
 /* HEADER */
@@ -232,6 +232,10 @@ img {
     padding: 0 25px;
 }
 
+.planning .card-title {
+    margin: 20px 0;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px) {
@@ -252,6 +256,14 @@ img {
     .row-img {
         justify-content: flex-start;
     }
+
+    .planning .col-6 {
+        flex-basis: 100%;
+    }
+
+    .planning .resizing-img{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -263,4 +275,5 @@ img {
         flex-basis: 100%;
         justify-content: center;
     }
+
 }
