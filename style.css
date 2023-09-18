@@ -325,4 +325,8 @@ h1 {
         justify-content: center;
     }
 
+    .partners .col-12 {
+        flex-direction: column;
+        text-align: center;
+    }
 }
