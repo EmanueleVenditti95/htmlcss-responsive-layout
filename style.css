@@ -423,7 +423,7 @@ footer a {
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
     .navbar-list {
         display: none;
     }
@@ -456,7 +456,7 @@ footer a {
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .hero .col-4, .hero .col-8 {
         flex-basis: 100%;
     }
